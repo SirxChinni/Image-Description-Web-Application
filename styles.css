@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .preview {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #imageInput {
+    display: block; /* Make the file input visible */
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  #imageInput:hover {
+    border-color: #0056b3;
+  }
+  
+  #submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submitButton:hover {
+    background-color: #218838;
+  }
+  
+  #output {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
